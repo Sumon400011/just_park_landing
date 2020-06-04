@@ -1,0 +1,974 @@
+*,html,body{
+	margin: 0px;
+	padding: 0px;
+	scroll-behavior: smooth;
+}
+
+body{
+		font-family: Arial, Nunito;
+}
+
+h3{
+	font-size: 30px!important;
+}
+
+.navbar-brand img{
+	height: 100%;
+	width: 130px;
+}
+
+header{
+	background-color: white;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	box-shadow: 0px 0px  5px black;
+}
+
+header ul li a{
+	color: #999999;
+	font-size: 15px;
+	padding: 17px 17px !important;
+	font-family: Arial, Nunito;
+	text-align: center;
+}
+
+header ul li a:hover{
+	color: orange!important;
+	transition: 0.3s ease-in;
+}
+
+header ul li:nth-child(6) a{
+	color: black !important;
+	transition: 0.3s ease-in;
+}
+
+header ul li:nth-child(6):hover a{
+	color: orange !important;
+}
+
+header ul li:nth-child(7) a{
+	color: black !important;
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	margin-top: 9px;
+	border: 1px solid black;
+	border-radius: 20px;
+	transition: 0.3s ease-in;
+}
+
+header ul li:nth-child(7):hover a{
+	color: orange !important;
+	padding-top: 6px !important;
+	padding-bottom: 6px !important;
+	margin-top: 9px;
+	border: 1px solid orange;
+	border-radius: 20px;
+}
+
+#myBtn{
+	display: none;
+}
+
+
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 0.5s;
+  padding-top: 30%;
+  padding-bottom: 30%;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+}
+
+
+.reg{
+	bottom:0;
+    position:absolute;
+    width:100%;
+    background-color:#000;
+    padding:1rem;
+}
+
+.sidenav-img{
+	top: 10px;
+	position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*..........banner section..........*/
+
+
+#banner-area1{
+	height: 710px;
+	width: 100%;
+}
+
+.img1{
+	background-image: url("../img/slider1.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.find-parking{
+  background-color: rgba(35,50,64, 0.9); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  clip-path: polygon(75% 0%, 62% 50%, 75% 100%, 0 100%, 0% 50%, 0 0);
+  width: 80%;
+  height:670px;
+  margin-top: 40px;
+  font-family: Nunito,Avenir,sans-serif;
+  padding-top: 100px;
+  left:0;
+}
+
+/*.find-parking-content{
+	padding: 80px 20px 20px 20px;
+	max-width: 600px;
+}*/
+
+#banner-area1{
+	font-family: Arial, Nunito;
+}
+
+.rent-form{
+	width: 100%;
+}
+
+.rent-form button{
+	height: 50px;
+}
+
+.rent-form button:hover{
+	border-bottom: 3px solid orange;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+.rent-form-inputs{
+	width: 100%;
+	background-color: white;
+}
+
+
+.rent-form-inputs label{
+	color:lightgray;
+	font-size: 12px;
+	padding: 5px 0px 5px 20px; 
+}
+
+.rent-form-inputs input{
+
+	height: 30px!important;
+	border:none!important;
+}
+
+.show-parking-btn{
+	margin-top: 10px;
+	height: 60px;
+	background-color: black!important;
+	color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.......... parking made easy ..........*/
+
+
+#parking-made-easy{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#parking-made-easy h3,#parking-made-easy h4{
+	color: darkorange;
+	font-weight: bold;
+	text-align: center;
+}
+
+#parking-made-easy p{
+	text-align: center;
+}
+
+#parking-made-easy hr{
+	width:70%; 
+	position: absolute; 
+	margin-top: 6%;
+	left: 15%;
+
+}
+
+
+
+.easy-parking-intro-block{
+	position: relative;
+	/*background: #f7f7f7;*/
+	margin: 100px 0px 0px;
+    text-align: center;
+    padding: 70px 15px 40px;
+}
+
+.easy-parking-intro-block .easy-parking-intro-icon{
+	position: absolute;
+	top: -102px;
+    left: 50%;
+    margin-left: -76px;
+    background-color: white;
+}
+
+.easy-parking-intro-block .fas{
+	width: 160px;
+	height: 160px;
+	font-size: 5rem;
+	color: gray;
+	line-height: 200%;
+	text-align: center;
+	border-radius: 50%;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.......... download app ..........*/
+
+#download-app{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+#download-app .row{
+	margin-left: 15px;
+}
+
+#download-app img{
+	width: 105% !important;
+	max-height: 50vw;
+}
+
+
+.send-link-container{
+	border: 1px solid lightgray;
+	height: 80px;
+	width: 105%;
+	border-radius: 50px;
+	box-shadow: 0 2px 10px lightgray;
+	padding: 1rem 1rem;
+	margin-left: -14px;
+	margin-top: 35px;
+}
+
+.send-link-input{
+	border: none;
+	outline: none;
+	width: 80%;
+	padding: 5px 15px;
+}
+
+.send-link-btn{
+	padding: 5px 15px;
+	background-color: black;
+	color: orange;
+	outline: none;
+	border:1px solid black;
+	border-radius: 50px;
+}
+
+.send-link-input::placeholder{
+	color: lightgray;
+	font-size: 1.5rem;
+}
+
+#download-app ul li{
+	border:none;
+}
+#download-app ul li a img{
+	height: 36px;
+	max-width: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*.......... parking space & parking management ..........*/
+
+#parking-space, #park-management{
+	height: 710px;
+}
+
+.img2{
+	background-image: url("../img/slider1.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.overley{
+  background-color: rgba(255,255,255, 0.9); /* Black w/opacity/see-through */
+  color: ;
+  font-weight: bold;
+  position: absolute;
+  clip-path: polygon(75% 0%, 62% 50%, 75% 100%, 0 100%, 0% 50%, 0 0);
+  width: 80%;
+  height:711px;
+  font-family: Nunito,Avenir,sans-serif;
+  padding-top: 100px;
+  left:0;
+}
+
+.parking-space-content{
+	/*min-height: 100%;*/
+}
+.parking-space-content, .parking-management-content{
+	vertical-align: middle;
+}
+
+.parking-space-subcontent h3, .parking-management-subcontent h3{
+	color: orange;
+}
+
+.parking-space-subcontent, .parking-management-subcontent{
+	padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 	/*..........owl carosel | slider section..........*/
+
+#slider{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#slider h3{
+	text-align: center;
+}
+.slider-header p{
+	width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.......... footer section ..........*/
+
+#footer{
+	padding-top: 50px;
+}
+
+#footer ul{
+	margin: 0;
+	padding: 0;
+}
+
+#footer ul li{
+	list-style: none;
+	font-size: 14px;
+	padding-top: 8px;
+	color: gray;
+}
+
+#footer a{
+	color: gray;
+}
+
+#footer a:hover{
+	color: orange;
+}
+
+
+.footer-img-block ul li, .footer-icon-block ul li{
+	border:none;
+}
+
+.footer-icon-block a{
+	height: 35px;
+	width: 35px;
+	color: orange !important;
+	font-size: 17px;
+	line-height: 35px;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.footer-icon-block a:hover{
+	color: black !important;
+	background-color: orange;
+}
+
+
+
+.footer-img-block ul li a img{
+	height: 36px;
+	max-width: 130px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.......... Media  Screen max width 1023  MEDIUM DDEVICE..........*/
+
+
+@media screen and (max-width: 1023px) {
+
+
+	header ul li a {
+	color: #999999;
+	font-size: 0.9rem;
+	padding: 17px 7px !important;
+	font-family: Arial, Nunito;
+	text-align: center;
+}
+
+#banner-area1{
+	height: 530px !important;
+	width: 100%;
+	font-family: Arial, Nunito;
+}
+
+.find-parking{
+  background-color: rgba(35,50,64, 0.9);
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  clip-path: polygon(75% 0%, 68% 50%, 75% 100%, 0 100%, 0% 50%, 0 0);
+  width: 80%;
+  height: 450px !important;
+  margin-top: 80px;
+  font-family: Nunito,Avenir,sans-serif;
+  padding-top: 30px!important;
+  left:0;
+
+}
+
+
+
+
+h3{
+	font-size: 27px!important;
+}
+h4{
+	font-size: 20px!important;
+}
+
+ p{
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+
+.row{
+	padding-left: 40px !important;;
+	padding-right: 40px !important;;
+}
+
+.offset-md-1{
+	margin-left: 0px!important;
+}
+
+
+
+
+
+
+
+#parking-space, #park-management{
+	height: 530px !important;
+}
+
+/*.parking-space-content div{
+	vertical-align: middle;
+	padding-top: 10px!important;
+}*/
+
+.img2{
+	background-image: url("../img/slider1.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.overley{
+  background-color: rgba(255,255,255, 0.9); /* Black w/opacity/see-through */
+  font-weight: bold;
+  clip-path: polygon(75% 0%, 68% 50%, 75% 100%, 0 100%, 0% 50%, 0 0);
+  width: 80%;
+  height: 531px !important;
+  font-family: Nunito,Avenir,sans-serif;
+  padding-top: 0px!important;
+  left:0;
+}
+
+
+
+
+#parking-made-easy{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#parking-made-easy hr{
+	width:70%; 
+	margin-top: 7%;
+	display: none;
+}
+
+.easy-parking-intro-block{
+	position: relative;
+	/*background: #f7f7f7;*/
+	margin: 100px 0px 0px;
+    padding: 70px 15px 40px;
+}
+
+.easy-parking-intro-block .easy-parking-intro-icon{
+	position: absolute;
+	top: -70px;
+    left: 55%;
+    margin-left: -76px;
+    background-color: white;
+}
+
+.easy-parking-intro-block .fas{
+	width: 120px;
+	height: 120px;
+	font-size: 5rem;
+	color: gray;
+	line-height: 150%;
+	text-align: center;
+	border-radius: 50%;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+
+
+
+
+
+
+#download-app{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.send-link-container{
+	border: 1px solid lightgray;
+	height: 60px;
+	width: 105%;
+	border-radius: 50px;
+	box-shadow: 0 2px 10px lightgray;
+	padding: 0.6rem 0.6rem;
+	margin-left: -14px;
+	margin-top: 35px;
+}
+
+.send-link-input::placeholder{
+	font-size: 1rem;
+	margin-right: 0px!important;
+}
+
+.send-link-btn{
+	padding: 5px 15px;
+	background-color: black;
+	color: orange;
+	outline: none;
+	border:1px solid black;
+	border-radius: 50px;
+	font-size: 0.8rem;
+	width: 30%;
+}
+
+.send-link-input{
+	border: none;
+	outline: none;
+	width: 70%;
+	padding: 4px 10px;
+}
+
+
+
+
+
+
+.slider-header p{
+	width: 75%;
+}
+
+
+
+
+.footer-icon-block a{
+	height: 30px;
+	width: 30px;
+	color: orange !important;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	background-color: black;
+}
+
+.footer-img-block ul li a img{
+	height: 34px;
+	width: 100%;
+}
+
+.footer-menu1, .footer-menu2{
+	text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*.......... Media  Screen max width 540px  Extra SMALL..........*/
+
+@media screen and (max-width: 575px) {
+ #parking-space, #park-management{
+
+	}
+
+	header{
+		position: fixed;
+	}
+
+	.navbar-brand img{
+		height: 100%;
+		width: 100px;
+	}
+
+
+	header ul li a{
+		color: #999999;
+		font-size: 13px;
+		padding: 14px 14px !important;
+		font-family: Arial, Nunito;
+		text-align: center;
+	}
+
+	#myBtn{
+		display: none!important;
+	}
+
+
+
+
+	.find-parking{
+		width: 100%;
+		clip-path: none!important;
+		background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/slider1.jpg");
+		background-size: 100% 100%;
+		margin-top: 69px;
+		font-family: Nunito,Avenir,sans-serif;
+
+	}
+
+
+	.img1{
+		background: none;
+		background-size: 0px 0px!important;
+	}
+
+
+	#banner-area1 .row{
+		margin-right: 0px!important;
+		margin-left: 0px!important;
+	}
+
+
+	
+	#parking-space, #park-management{
+		height: 350px !important;
+		padding-top: 0px !important;
+	}
+	#download-app{
+		padding-top: 0px !important;
+	}
+	.ipad-pic{
+		display: none;
+	}
+
+	.img2{
+
+		background-image: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)), url("../img/slider1.jpg");;
+		background-size: 100% 100%;
+		background-position: center;
+	 	background-repeat: no-repeat;
+	 	background-size: cover;
+		
+	}
+
+
+	.parking-space-subcontent, .parking-management-subcontent {
+    	padding-top: 70px;
+    	text-align: center;
+	}
+
+	.parking-space-subcontent p, .parking-management-subcontent p{
+    	margin-bottom: 15px !important;
+    	margin-top: 15px !important;
+	}
+
+/*	.overley{
+		clip-path: none;
+		width: 100%!important;
+		background-color: transparent;
+	}*/
+
+
+
+
+
+
+	#slider .row{
+		padding-left: 0px !important;
+    	padding-right: 0px !important;
+	}
+
+
+
+	.h-line{
+		display: none;
+	}
+
+	.overley{
+		clip-path: none;
+		background: transparent;
+		position: absolute;
+		background-size: cover;
+		width: 97%;
+
+	}
+
+	.parking-space-subcontent{
+		padding-left:  5px;
+	}
+
+
+	#download-app .row{
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+	}
+	
+	#download-app h3{
+		font-size: 20px;
+	}
+
+
+	.easy-parking-intro-block .fas {
+	    width: 100px;
+	    height: 100px;
+	    font-size: 4rem;
+	    color: gray;
+	    line-height: 150%;
+	    text-align: center;
+	    border-radius: 50%;
+	    border-right: 1px solid gray;
+	    border-left: 1px solid gray;
+	}
+	.easy-parking-intro-block {
+	    position: relative;
+	    margin: 100px 0px 0px;
+	    padding: 15px 15px 18px;
+	}
+
+	.easy-parking-intro-block .easy-parking-intro-icon {
+	    position: absolute;
+	    top: -102px;
+	    left: 60%;
+	    margin-left: -76px;
+	    background-color: white;
+	}
+
+
+
+
+
+
+
+
+
+	#footer .justify-content-sm-center{
+		text-align: center;
+		-ms-flex-pack: center!important;
+    	justify-content: center!important;
+	}
+
+	.find-parking-content .row{
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	.btn-secondary{
+		font-size: 12px!important;
+	}
+
+
+
+
+
+
+}
